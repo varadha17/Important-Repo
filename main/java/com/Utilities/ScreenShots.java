@@ -18,6 +18,12 @@ public class ScreenShots extends BaseClass{
 	
 	public void ScreenShotTest(String MethodNameVerify) throws IOException {
 		
+		Date d1 = new Date();
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("dd_MMM_yyyy");
+		
+		String str = sdf.format(d1);
+		
 		File f = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		
 		FileUtils.copyFile(f, new File("C:\\Users\\name\\eclipse-workspace\\GoogleTest\\Failed Screenshots\\"+MethodNameVerify+".jpg"));
