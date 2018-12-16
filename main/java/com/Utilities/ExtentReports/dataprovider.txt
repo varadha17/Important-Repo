@@ -1,0 +1,29 @@
+	@DataProvider
+	public Iterator<Object[]> LoginVerify() throws Exception{
+		
+		ArrayList<Object[]> testdata= getExcelDatas.getDatas();
+		return testdata.iterator();
+		
+		
+	}
+	
+	@Test(dataProvider="LoginVerify")
+	public HomePage LoginCheckTest(String datas, String data) {
+		
+		UserName.sendKeys(datas);
+		Password.sendKeys(data);
+		ButtonClick.click();
+		
+		return new HomePage();
+		
+	}
+
+
+	@FindBy(name="username")
+	WebElement UserName;
+	
+	@FindBy(name="password")
+	WebElement Password;
+	
+	@FindBy(xpath="//input[@type='submit']")
+	WebElement ButtonClick;
