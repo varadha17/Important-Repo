@@ -9,7 +9,7 @@ This Script is aimed how to Automate using **TestNG Framework** for ***Unit Test
 ### Dependency Have to Include:
 - Check the Script file [pom.xml](https://github.com/varadha17/Important-Repo/blob/master/pom.xml)
 
-You can add any one of the following, both will give you the library files:
+```Ruby You can add any one of the following, both will give you the library files: ```
 1. **pom.xml** - Here you should include the selenium Dependencies and other
 2. **Jar files** - Here you should add the Jar files which you download
 
