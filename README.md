@@ -1,3 +1,3 @@
 # Important-Repo
 
-This Script basically studies how the TestNG works for Unit Testing and Regression Testing
+This Script is aimed how to Automate TestNG Framework for Unit Testing and Regression Testing
