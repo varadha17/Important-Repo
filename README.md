@@ -13,9 +13,9 @@ You can add any one of the following, both will give you the library files:
 1. **pom.xml** - Here you should include the selenium Dependencies and other
 2. **Jar files** - Here you should add the Jar files which you download
 
-Basic Writing tips - https://help.github.com/articles/basic-writing-and-formatting-syntax/
+**Basic Writing tips** - https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
-Emoji- https://www.webpagefx.com/tools/emoji-cheat-sheet/
+**Emoji**- https://www.webpagefx.com/tools/emoji-cheat-sheet/
 
 
 
