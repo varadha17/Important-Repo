@@ -3,9 +3,12 @@
 This Script is aimed how to Automate **TestNG Framework** for ***Unit Testing*** and ***Regression Testing*** :bowtie:
 
 Jar files have to Include:
-```
-selenium-server-standalone-3.14.0 - https://www.seleniumhq.org/download/
-```
+1. **selenium-server-standalone-3.14.0** (or) **selenium-server-standalone-2.53.1**- https://www.seleniumhq.org/download/
+2. **Apache poi 4.0 or 3.9 (Use any one)** - https://poi.apache.org/download.html
+
+You can add any one of the following, both will give you the library files:
+1. **pom.xml** - Here you should include the selenium Dependencies and other
+2. **Jar files** - Here you should add the Jar files which you download
 
 Basic Writing tips - https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
