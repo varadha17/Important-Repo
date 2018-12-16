@@ -1,6 +1,6 @@
 # Important-Repo
 
-This Script is aimed how to Automate **TestNG Framework** for ***Unit Testing*** and ***Regression Testing*** :bowtie:
+This Script is aimed how to Automate using **TestNG Framework** for ***Unit Testing*** and ***Regression Testing*** :bowtie:
 
 ### Jar files have to Include:
 1. **selenium-server-standalone-3.14.0** (or) **selenium-server-standalone-2.53.1**- https://www.seleniumhq.org/download/
