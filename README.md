@@ -13,9 +13,9 @@ This Script is aimed how to Automate using **TestNG Framework** for ***Unit Test
 1. **pom.xml** - Here you should include the selenium Dependencies and other
 2. **Jar files** - Here you should add the Jar files which you download
 
-**Basic Writing tips** - https://help.github.com/articles/basic-writing-and-formatting-syntax/
+:heavy_check_mark: **Basic Writing tips** - https://help.github.com/articles/basic-writing-and-formatting-syntax/
 
-**Emoji**- https://www.webpagefx.com/tools/emoji-cheat-sheet/
+:heavy_check_mark: **Emoji**- https://www.webpagefx.com/tools/emoji-cheat-sheet/
 
 
 
