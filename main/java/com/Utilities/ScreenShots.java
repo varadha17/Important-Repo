@@ -26,7 +26,7 @@ public class ScreenShots extends BaseClass{
 		
 		File f = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		
-		FileUtils.copyFile(f, new File("C:\\Users\\name\\eclipse-workspace\\GoogleTest\\Failed Screenshots\\"+MethodNameVerify+".jpg"));
+		FileUtils.copyFile(f, new File("C:\\Users\\name\\eclipse-workspace\\GoogleTest\\Failed Screenshots\\"+str+"\\"+MethodNameVerify+".jpg"));
 
 		
 	}
