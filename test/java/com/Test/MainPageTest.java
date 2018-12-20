@@ -34,13 +34,13 @@ public class MainPageTest extends BaseClass {
 		
 	}
 	
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void BrokenLinksVerifyTestPage() throws MalformedURLException, IOException {
 		
 		mainpage.BrokenListTestVerify();
 	}
 	
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void EmailTestVerify() throws InterruptedException, IOException {
 		mainpage.EmailVerify();
 	}
