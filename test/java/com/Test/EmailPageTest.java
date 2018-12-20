@@ -36,7 +36,7 @@ public class EmailPageTest extends BaseClass {
 		
 	}
 	
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void LoginVerifyTestPage() throws IOException, InterruptedException {
 		
 		emailpage.LoginVerify();
